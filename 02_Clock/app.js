@@ -5,8 +5,6 @@ function setTime(){
    const secondsHand = document.querySelector(".second-hand");
    const secondDegree = ((seconds / 60) * 360) + 90;
    secondsHand.style.transform = `rotate(${secondDegree}deg)`;
-   console.log(seconds)
-   console.log(secondDegree)
 
    const minutes = timeNow.getMinutes();
    const minuteDegree = ((minutes / 60) * 360) + 90;
